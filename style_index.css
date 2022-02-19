@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #10282b);
     font-family: 'Roboto Mono', monospace;
     min-width: 540px;
     padding-bottom: 0px;
@@ -36,13 +36,13 @@ body {
     border-radius: 100%;
     width: 200px;
     height: 200px;
-    border: 10px solid rgb(255, 255, 255);
+    border: 10px solid #469ba6;
     margin-left: auto;
     display: block;
     transform: translateY(-50%);
 }
 .menu-back {
-    background-color: rgb(0, 132, 141);
+    background-color: #469ba6;
     border-radius: 30px;
 }
 .menu {
@@ -131,7 +131,7 @@ a:hover {
 }
 
 .foot {
-    background-color: rgb(0, 132, 141);
+    background-color: #469ba6;
     text-align: center;
     color: white;
     margin-top: -55px;
