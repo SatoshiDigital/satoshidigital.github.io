@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erro de Certificado Invalido</title>
+
+    <link rel="stylesheet" href="./styles/style_index.css">
+    <script type='text/javascript' src='./Js/script-index.js'></script>
+    <link rel="shortcut icon" href="./images/tsuki.ico" >
+</head>
+<body>
+    <header class="head-page">
+        <div class="menu-back">
+            <nav class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/CertifiCard.html">CertifiCard</a></li>
+                <li><a href="#publi">Publicações</a></li>
+                <li><a href="tutoriais.html">Tutoriais</a></li>
+            </nav>
+        </div>
+        <div class="info-profile">
+            <h1>Moises Steiner</h1>
+            <h2>Satoshi-Yamazaki</h2>
+            <a target="_blank" href="https://github.com/Satoshi-Yamazaki"><h3>My <b>Github</b></h3></a>
+            <img class="profile-img" src="https://unavatar.now.sh/github/Satoshi-Yamazaki">
+        </div>        
+    </header>
+    <section class="corpo">
+        <h1 class="titulo">Erro de Certificado Invalido - Como Resolver Facilmente - Windows</h1>
+        <div class="publicacao2">
+            <div class="conteiner" id="post1">
+                <img class="icone" src="images/tsuki2.ico">
+                <p class="nomepu"> Satoshi-Yamazaki</p>
+                <div class="artigo">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwSCNiy1mcH_2I7TsH7V-ndA7j3PPxVdCHHw&usqp=CAU"><br>
+                   <h6>Imagem - Kinsta</h6>
+                   <h3>Resolver o erro causado pela expiração do certificado SSL, DST root CA X3 de maneira fácil e rápida</h3>
+                   <p>                   
+                    <b>Primeiro</b>, baixe o arquivo "isrgrootx1.der" do site <i><a href="https://letsencrypt.org/">Letsencrypt</a></i> clicando <b><a href="https://letsencrypt.org/certs/isrgrootx1.der">AQUI</a></b>.<br>
+                    (Obs.:Este arquivo .der é um certificado SSL que substitui o certificado que se expirou dia 30/09/2021 o DST root CA X3.)<br><br>
+                    
+                    <b>Segundo</b>, acesse o executar do Windows(Win+R), digite o comando "certmrg.msc" e clique em "OK". Se abrirá uma janela no console.<br><br>
+                    <img src="images/executar.png"><br><br>
+                    
+                    <b>Terceiro</b>, ache a opção "Autoridades de Certificação Raiz Confiáveis" no canto esquerdo da janela e entre nos "Certificados". 
+                    Ache o certificado "DST root CA X3", clique com o botão direito do mouse sobre ele e o exclua.<br><br>
+                    <img src="images/console.png"><br><br>
+                    
+                    <b>Quarto</b>, vá até onde está baixado o arquivo "isrgrootx1.der" e o execute.<br>
+                    Na janela que se abrirá, clique em "Instalar Certificado...".<br><br>
+                    <img src="images/cert1.png"><br><br>
+                    Clique em "Avançar" e na próxima página,<br><br>
+                    <img src="images/cert2.png"><br><br>
+                    selecione a opção "Colocar todos os certificados no repositório a seguir", em seguida clique em "procurar...", 
+                    na nova janela selecione a opção "Autoridades de Certificação Raiz Confiáveis" e clique em "OK". Em seguida clique em "Avançar"<br><br>
+                    <img src="images/cert3.png"><br><br>
+                    na próxima página clique em "Concluir".<br><br>
+                    <img src="images/cert4.png"><br><br>
+                    Se abrirá então uma nova janela confirmando que a importação do certificado foi concluída com sucesso, clique em "OK".<br><br>
+                    <img src="images/cert5.png"><br><br>
+                    
+                    <b>Quinto</b>, se o seu navegador ainda estiver aberto, feche-o e em seguida abra-o novamente e tente entrar no site onde houve o erro.<br>
+                    Se todos os passos foram seguidos corretamente e não houve nenhum erro, o site deve se abrir normalmente.<br><br>
+                    
+                    Pronto agora seu certificado SSL está atualizado até 2035.<br><br>
+
+                    <b>(Obs.: Este método funciona em praticamente todos os casos, caso não funcione, pesquise outra solução.)</b>
+                   </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="foot">
+        <footer>
+            <p>&copy; 2021 Satoshi-Yamazaki - Arte e Tutoriais.            </p>
+        </footer>
+    </section>
+</body>
+</html>
