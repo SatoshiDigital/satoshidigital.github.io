@@ -54,7 +54,7 @@ body {
     border-radius: 100%;
     width: 200px;
     height: 200px;
-    border: 10px solid r;
+    border: 10px solid s;
     margin-left: auto;
     display: block;
     transform: translateY(-50%);
@@ -95,8 +95,60 @@ body {
     margin-top: 120px;
     max-width: 100%;
 }
-.Publi {
+.conteiner {
+    padding: 15px;
+}
+.boxImageSquare {
+    width: 500px;
+    height: 500px;
+}
+.info {
+    width: 400px;
+    position: relative;
+    left: 420px;
+    transform: translateY(-480px);
+}
+.publicacao {
+    margin-bottom: -190px;
+}
+.imagePubli {
+    width: 400px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover {
+    color: rgb(0, 83, 89);
+}
+.artigo p a:hover {
+    color: rgb(0, 83, 89);
+}
+.nomepu {
+    position: relative;
+    width: 200px;
+    left: 60px;
+    transform: translateY(-30%);
+    padding-left: 30px;
+    font-family: 'Shenttpuro';
+}
+.artigo {
     padding: 30px;
+    margin-bottom: 40px;
+}
+.artigo img {
+    width: 425px;
+}
+.icone {
+    border-radius: 100%;
+    transform: translateY(100%);
+    margin-left: 25px;
+    height: 50px;
+}
+.titulo {
+    padding: 40px;
+    margin-bottom: -40px;
 }
 .foot {
     background-color: rgb(207, 2, 2);
@@ -106,20 +158,6 @@ body {
     border-radius: 30px;
     font-family: 'Shenttpuro';
     font-size: large;
-}
-.Conteiner {
-    padding: 40px;
-    height: 600px;
-}
-.Conteiner a {
-    text-decoration: none;
-    color: white;
-}
-.Conteiner a :hover {
-    color: rgb(247, 81, 81);
-}
-.Conteiner img {
-    width: 425px;
 }
 footer {
     padding: 30px;
