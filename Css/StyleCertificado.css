@@ -16,8 +16,9 @@ body {
 a {
     color: white;
 }
-.pq {
-    font-size: 30px;
+.aq {
+    font-size: 70px;
+    color: red;
 }
 .head-page {
     background-color: rgb(68, 8, 8);
